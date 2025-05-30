@@ -1,5 +1,7 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:700,400,500,300);
+
 *{
-    font-family: 'Roboto Mono';
+    font-family: 'Roboto';
 }
 body{
     display:flex;
