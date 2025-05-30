@@ -118,7 +118,7 @@ h2{
     display: flex;
     flex-direction: column;
     
-    margin: 100px 200px 50px 200px;
+    margin: 100px 200px 100px 300px;
 }
 .third-section p{
     font-size: 36px;
@@ -133,10 +133,40 @@ h2{
 .quoter p{
     margin-right: 50px;
 }
-button{
+
+.fourth-section{
     background-color: #3882f6;
-    border-radius: 5px;
-    color: #f9faf8;
-    font-size: 18px;
+    border-radius: 8px;
+    display:flex;
+    justify-content: space-around;
+    margin: 100px 200px 50px 180px;
+
+}
+.fourth-section h3,
+.fourth-section p{
+    color: #f9faf8;;
+}
+.fourth-section h3{
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.fourth-section p {
+    margin-top: 0;
+    margin-bottom: 50px;
 }
 
+.button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.button button{
+    border-color: #f9faf8;
+}
+button{
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 5px 30px;
+}
