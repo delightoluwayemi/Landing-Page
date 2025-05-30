@@ -1,5 +1,5 @@
 *{
-    font-family: 'Roboto';
+    font-family: 'Roboto Mono';
 }
 body{
     display:flex;
@@ -13,7 +13,7 @@ body{
     flex-direction:row;
     justify-content: center;
     align-content:flex-start;
-    height: 50vh;
+    height: 30%;
 }
 
 .Hero{
@@ -75,9 +75,47 @@ body{
     flex:1;
 }
 
+.second-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 200px 40px 200px;
+}
+
+h2{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.illustration{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    margin: 0 70px;
+}
+.illustration div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.illustration div img{
+    border: 3px solid #3882f6;
+    border-radius: 8px;
+    padding: 80px;
+}
+.illustration div p{
+    font-size: 18px;
+    margin:0;
+}
 button{
     background-color: #3882f6;
     border-radius: 5px;
     color: #f9faf8;
     font-size: 18px;
 }
+
