@@ -15,7 +15,7 @@ body{
     flex-direction:row;
     justify-content: center;
     align-content:flex-start;
-    height: 45vh;
+    height: 30%;
 }
 
 .Hero{
